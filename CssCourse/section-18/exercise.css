@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Space Mono", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(#0299d1, #01579b);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messages {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 1);
+}
+
+.badge {
+    background-color: greenyellow;
+    border: 2px solid white;
+    padding: 5px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+}

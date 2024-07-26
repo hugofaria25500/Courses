@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Space Mono", sans-serif;
+}
+
+hr + p {
+    color: red;
+}
+
+h2 ~ p {
+    color: green;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: magenta;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+
+.blah li:nth-of-type(even) {
+    background-color: magenta;
+}
+
+
+p::first-letter {
+    color: blue;
+    font-size: 30px;
+}
+
+
+
+/* Select the first letter of each paragraph and give them a color of blue and a font-size of 30 pixels */
