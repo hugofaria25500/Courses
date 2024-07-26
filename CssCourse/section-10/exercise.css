@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Space Mono", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+div {
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+li {
+    color: purple;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+#submit {
+    background-color: green;
+}
+
+#flavors span {
+    color: red;
+}
+
+.size {
+    color: magenta;
+}
+
+input[type="email"] {
+    background-color: orange;
+}
+
+a[href$=".org"] {
+    background-color: magenta;
+}
+
+h2.bright {
+    color: cyan;
+}
+
+/* Select the h2 with the class of 'bright' (be careful, other elements have the same class!) and give it a color of cyan */
+

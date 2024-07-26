@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+    <h2>Exercise</h2>
+    <h1>Your Course Landing Page</h1>
+    <form action="/kdjdos">
+        <div>
+           <label for="course_title">Course Title</label>
+            <input type="text" name="course-title" id="course_title" required>
+        </div>
+
+        <div>
+            <label for="course_description">Couse Decription</label>
+            <br>
+            <textarea name="course-description" id="course_description" rows="10" required></textarea>
+        </div>
+
+        <div>
+            <label for="skill_level">Skill Level</label>
+            <select name="skill-level" id="skill_level">
+                <option value="beginner">Beginner Level</option>
+                <option value="intermediate">Intermediate Level</option>
+                <option value="advanced">Advanced Level</option>
+                <option value="all">All Levels</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="publish">Ready to publish the course ?</label>
+            <input type="checkbox" name="publish" id="publish">
+        </div>
+
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
